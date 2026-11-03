@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Under Earth",
+      "hasCanvas": false,
+      "bodyTextLen": 457,
+      "bodyTextHash": "cfcfa607a16ae592c79f036bc19765cb6db251e370bf1f92c5ad4d0a05812a46",
+      "bodyTextPrefix": "CLAMP PRESS · DIGITAL EDITION · 2026 Under Earth A keeper’s book",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Under Earth",
+      "hasCanvas": false,
+      "bodyTextLen": 457,
+      "bodyTextHash": "cfcfa607a16ae592c79f036bc19765cb6db251e370bf1f92c5ad4d0a05812a46",
+      "bodyTextPrefix": "CLAMP PRESS · DIGITAL EDITION · 2026 Under Earth A keeper’s book",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

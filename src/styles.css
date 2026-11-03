@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f3ebdd;
+  --color-paper-deep: #e6dccb;
+  --color-ink: #1e1712;
+  --color-muted: #5c5148;
+  --color-beet: #8c3a32;
+  --color-beet-deep: #6e2c26;
+  --color-line: #d9cbb8;
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+  --font-body: "Literata", "Iowan Old Style", Palatino, Georgia, serif;
+  --tracking-kicker: 0.18em;
+  --width-measure: 40rem;
+  --width-spread: 68rem;
+}
+
+@layer base {
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-beet);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background: var(--color-beet);
+    color: var(--color-paper);
+  }
+
+  input[type="checkbox"] {
+    accent-color: var(--color-beet);
+    width: 1.15rem;
+    height: 1.15rem;
+  }
+}
+
+.drop::first-letter {
+  font-family: var(--font-display);
+  font-weight: 600;
+  float: left;
+  font-size: 3.25rem;
+  line-height: 0.75;
+  padding: 0.2rem 0.45rem 0 0;
+  color: var(--color-beet);
+}
+
+.dock {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+}
