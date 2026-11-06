@@ -57,7 +57,7 @@ export function BookApp() {
         <Cover
           ready={ready}
           last={last}
-          onRead={() => openChapter("before")}
+          onRead={() => openChapter("start")}
           onContents={() => setView({ kind: "contents" })}
           onContinue={() => last && openChapter(last)}
         />
@@ -93,10 +93,10 @@ function Cover({
         <p className="text-xs tracking-kicker text-beet uppercase">
           {EDITION.press} · Digital edition · {EDITION.year}
         </p>
-        <h1 className="mt-3 font-display text-5xl leading-tight italic md:mt-4 md:text-7xl">{EDITION.title}</h1>
+        <h1 className="mt-3 font-display text-4xl leading-tight italic md:mt-4 md:text-6xl">{EDITION.title}</h1>
         <p className="mt-4 max-w-md font-display text-2xl leading-snug">{EDITION.subtitle}</p>
         <p className="mt-4 max-w-md text-muted">
-          How to store the crop through winter, and how to cook it when you bring a handful up the stairs.
+          How to grow them, keep them through winter, and cook them when you bring a handful up the stairs.
         </p>
         <dl className="mt-8 grid grid-cols-2 border-y border-line">
           <div className="py-4 pr-3">
@@ -123,6 +123,9 @@ function Cover({
             </button>
           </div>
         ) : null}
+        <footer className="mt-8 text-sm text-muted">
+          Privacy: This guide does not collect your name, email, or any personal information.
+        </footer>
       </div>
       <figure>
         <Plate
@@ -160,6 +163,9 @@ function Contents({ onCover, onOpen }: { onCover: () => void; onOpen: (id: strin
           </li>
         ))}
       </ol>
+      <footer className="mt-10 text-sm text-muted">
+        Privacy: This guide does not collect your name, email, or any personal information.
+      </footer>
     </main>
   );
 }
@@ -308,10 +314,13 @@ function Reader({
             <span />
           )}
         </nav>
-        {chapter.id === "winter" ? (
+        {chapter.id === "about" ? (
           <footer className="mt-16 border-t border-line pt-6 text-sm text-muted">
             <p>
               {EDITION.title}. {EDITION.press}, {EDITION.year}.
+            </p>
+            <p className="mt-3">
+              Privacy: This guide does not collect your name, email, or any personal information.
             </p>
           </footer>
         ) : null}
