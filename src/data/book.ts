@@ -84,7 +84,8 @@ export const chapters: Chapter[] = [
     paragraphs: [
       "Green potatoes. Green skin means solanine, a natural poison. Peel away all the green, deep. Throw away potatoes that are green all the way through or taste bitter.",
       "Potato plants. The leaves, stems, sprouts, and little green berries are poisonous. Keep kids and pets away from them.",
-      "Parsnip leaves. The juice can cause bad skin burns and blisters in sunlight. Wear gloves and long sleeves when you handle the tops.",
+      "Wild parsnip. The severe burn is from wild parsnip, not the cultivated root in the garden. Sap from a broken leaf or stem, plus sunlight, can blister the skin. Standing near the plant is not enough. Avoid the sap. If it gets on you, wash it off and keep that skin out of the sun.",
+      "Cultivated parsnip foliage can irritate some people. Avoid contact with the sap. Wear gloves and long sleeves if you are sensitive, and wash exposed skin.",
       "Deadly look-alikes. Carrots and parsnips are in the same family as poison hemlock and water hemlock, which can kill. Never eat a wild carrot or parsnip. Only eat roots you planted.",
       "Ornamental sweet potato vines from a garden center are grown for looks and may have been sprayed. Do not eat them.",
       "Garlic or herbs in oil: refrigerate and use within 4 days, or freeze.",
@@ -114,10 +115,11 @@ export const chapters: Chapter[] = [
       {
         name: "Cured, then settled",
         range: "Potatoes 40–45°F after a mild cure. Sweet potatoes 55–60°F after a hot cure.",
-        crops: "Neither wants the refrigerator. Sweet potatoes are ruined by cold. Potatoes turn sweet and fry dark.",
+        crops: "Sweet potatoes are ruined by cold and do not belong in the refrigerator. Potatoes keep best around 40–45°F if you will fry them. A refrigerator will store potatoes, but the cold can make them sweeter and brown darker when fried.",
       },
     ],
     paragraphs: [
+      "The cold, damp range is 32–40°F. A plate that says 32–34°F means very cold storage, not a room that dips below freezing. Keep the roots from freezing. Ice ruins them.",
       "Leave the soil on. A dry film is a skin. Wash the day you cook. Cut leafy tops off before storage, leaving about half an inch of stem. Leaves pull water out of the root. Do not cut into the crown. Do not trim the thin tail of a beet, or it bleeds and then rots.",
       "If you have a cold place, keep the damp-climate roots in sand. Clean builder’s sand or play sand, not beach sand, which is salty. Spread a layer in a crate or a food-safe bin with a few holes. Lay the roots so they do not touch. Cover. Repeat.",
       "The sand should be damp the way a wrung cloth is, not wet. Squeeze a handful. It should hold, then crack. If water drips, it is wet enough to rot them. If it will not hold at all, the roots will shrivel. Once a month, look. One soft root takes the bin. Compost it and anything the wet spot touched.",
@@ -155,11 +157,11 @@ export const chapters: Chapter[] = [
     caption: "Leave the soil on until you cook. Take the tops off before they go into storage.",
     lede: "A carrot wants to be cold, damp, and far from the apple crate. Get that right and it is still sweet in March.",
     paragraphs: [
-      "Storage varieties — thicker Nantes and the harder keepers — last longer than baby carrots that have already been peeled and bagged wet. A supermarket carrot will keep, just not as long, because it was washed. Use washed ones first.",
+      "Storage varieties — thicker Nantes and the harder keepers — last longer than baby carrots that have already been peeled and bagged wet. Washing alone does not decide how long a carrot keeps. Bruises, extra moisture, warmth, and rough handling do. Use bruised or wet carrots first, and keep stored roots cold.",
       "They are sweetest when grown through cool weather. Heat makes them woody. Size is not quality. A slim carrot from cold ground beats a huge one from July.",
     ],
     storage: {
-      temp: "32–34°F · 0–1°C",
+      temp: "32–34°F · 0–1°C. Keep them from freezing.",
       humidity: "90–95%",
       keeps: "4–6 months in sand; 3–4 weeks in the fridge",
       apart: "Apples, pears, and other ethylene. The gas turns carrots bitter.",
@@ -220,7 +222,7 @@ export const chapters: Chapter[] = [
         time: "15 minutes, plus 2 hours",
         ingredients: [
           "1 lb carrots, cut in thin coins or sticks",
-          "1 cup cider vinegar",
+          "1 cup cider vinegar labeled 5% acidity",
           "1 cup water",
           "1 tablespoon sugar",
           "2 teaspoons salt",
@@ -232,7 +234,7 @@ export const chapters: Chapter[] = [
           "Pack the carrots, garlic, mustard seed, and chili into a clean jar.",
           "Boil the vinegar, water, sugar, and salt until the sugar dissolves.",
           "Pour the brine over the carrots. Cool, then cover.",
-          "They are good in two hours and better in two days. Refrigerate and eat within 3 weeks.",
+          "These are refrigerator pickles. They are not shelf-stable, and this is not a canning recipe. Do not store a sealed jar in the pantry. They are good in two hours and better in two days. Refrigerate and eat within 3 weeks.",
         ],
       },
     ],
@@ -251,7 +253,7 @@ export const chapters: Chapter[] = [
       "Golden and Chioggia beets store the same way. They are milder. Red beets have the earthier flavor and the juice that dyes the yogurt pink, which is not a problem.",
     ],
     storage: {
-      temp: "32–34°F · 0–1°C",
+      temp: "32–34°F · 0–1°C. Keep them from freezing.",
       humidity: "90–95%",
       keeps: "3–5 months in sand; several weeks in a perforated bag in the fridge",
       apart: "Ethylene from apples. Also keep the greens out of the bin — they respire hard and wet the roots.",
@@ -329,11 +331,11 @@ export const chapters: Chapter[] = [
     id: "potato",
     numeral: "VIII",
     title: "Potato",
-    kicker: "Dark, cool, not the fridge",
+    kicker: "Dark and cool",
     image: "/book/potato.jpg",
     imageAlt: "Dusty russet and yellow potatoes, one split open.",
     caption: "Unwashed, and kept in the dark.",
-    lede: "A potato is not a carrot. The refrigerator is the wrong room for it, and so is the sack of onions.",
+    lede: "A potato is not a carrot. It wants to be dark and cool, and it does not want the onion sack. A refrigerator will store it. The tradeoff is that cold storage can make it taste sweeter and brown more when fried. For frying, 40–45°F is the better room.",
     paragraphs: [
       "Late varieties store: russets, Yukons, and other mature potatoes with skins set hard. New potatoes, dug young with skin that rubs off, are for this week. Eat damaged tubers first. One rotten potato liquefies a sack.",
       "Do not wash them. Dry soil is fine. Light is not. Even a few days in a bright kitchen starts the green.",
@@ -347,7 +349,7 @@ export const chapters: Chapter[] = [
         "Below about 38°F, starch turns to sugar. The potato tastes sweet and fries dark. If that happens, leave them in a warmer dark room for a week; some of the sugar moves back. Green skin is solanine. Cut a small patch away with a margin. Discard a potato that is green through, badly sprouted, or bitter. Sprouts themselves come off; the potato underneath is fine if it is still firm and not green.",
       method: [
         "Cure first. Hold newly dug potatoes in the dark at 50–60°F (10–16°C) with some humidity for 10–14 days so cuts heal and skins set. A closed cardboard box in a cool room works.",
-        "Then move them colder, but not into a standard refrigerator. A dark cupboard against an outside wall, a garage that stays above freezing and below 50°F, or an unheated closet. Paper, burlap, or a crate. Not a sealed plastic bag.",
+        "Then move them cooler. A dark cupboard against an outside wall, a garage that stays above freezing and below 50°F, or an unheated closet will do. A refrigerator will also store them. Expect a sweeter taste and darker fries. Paper, burlap, or a crate. Not a sealed plastic bag.",
         "Pull any soft one as soon as you see it.",
       ],
     },
@@ -473,10 +475,11 @@ export const chapters: Chapter[] = [
     lede: "A parsnip stores like a carrot and cooks like something closer to a nut. Cold is not a hardship for it. Cold is how it gets good.",
     paragraphs: [
       "Leave them in the ground under a thick mulch where the soil does not freeze solid, and dig them when you want them. Or pull them after a few frosts and sand them. Either way, do not harvest in the heat of summer and expect a sweet root. They are a winter crop.",
+      "The leaves are not wild parsnip. Cultivated foliage can still irritate some people. Avoid the sap. Wear gloves and long sleeves if you are sensitive, and wash exposed skin after you trim the tops. The severe burn, from wild parsnip sap in sunlight, is in Stay safe.",
       "The core of a very large parsnip can be woody. Halve it lengthwise and cut the core out if it looks fibrous. Smaller roots can go in whole.",
     ],
     storage: {
-      temp: "32–34°F · 0–1°C",
+      temp: "32–34°F · 0–1°C. Keep them from freezing.",
       humidity: "90–95%",
       keeps: "4–6 months in damp sand; through winter in the ground under mulch",
       apart: "Apples, same as carrots. And do not wash them. The shoulders hold soil in every crease.",
@@ -543,7 +546,7 @@ export const chapters: Chapter[] = [
       "Kohlrabi is the same family and a different shape. Tops off, cold and damp, about a month or two. Peel the thick skin. Roast the wedges, or slice it thin and eat it with salt.",
     ],
     storage: {
-      temp: "32°F · 0°C",
+      temp: "32°F · 0°C. Keep them from freezing.",
       humidity: "90–95%",
       keeps: "Turnips 4–5 months in sand. Rutabagas 2–4 months. Waxed ones, a few weeks in a cool room.",
       apart: "Their own greens, and the usual ethylene. A damp cellar is right. A sealed plastic bag is not.",
@@ -607,7 +610,7 @@ export const chapters: Chapter[] = [
       "Daikon, black radish, and watermelon radish have the skin and the stature for real storage. They sweeten a little in the cold and lose some of the nose-clearing heat when roasted.",
     ],
     storage: {
-      temp: "32°F · 0°C",
+      temp: "32°F · 0°C. Keep them from freezing.",
       humidity: "90–95%",
       keeps: "Spring radishes 1–2 weeks in the fridge. Daikon and winter radishes 2–4 months in sand.",
       apart: "Tops off, always. Spring radishes do not belong in sand for the winter. They will not last it.",
@@ -767,7 +770,7 @@ export const chapters: Chapter[] = [
       "Cut flesh browns fast. For a raw salad, drop the shreds into water with lemon as you go. For roasting, you can skip that. The color cooks out.",
     ],
     storage: {
-      temp: "32°F · 0°C",
+      temp: "32°F · 0°C. Keep them from freezing.",
       humidity: "95%",
       keeps: "3–4 months in sand; a month or more in a perforated bag in the fridge",
       apart: "Nothing fussy. Just keep them cold, damp, and unwashed, with the knobs intact.",
@@ -831,7 +834,7 @@ export const chapters: Chapter[] = [
       "They contain inulin, which some people digest badly. The first time, cook a small serving. After that you will know.",
     ],
     storage: {
-      temp: "32°F · 0°C",
+      temp: "32°F · 0°C. Keep them from freezing.",
       humidity: "90–95%",
       keeps: "2–5 months in damp sand; 2–3 weeks in the fridge; all winter in the ground where it does not freeze solid",
       apart: "Dry air. A basket on the counter shrivels them in days.",
@@ -897,7 +900,7 @@ export const chapters: Chapter[] = [
       "Horseradish is mild until the cells are crushed. The heat is a reaction with air, and acid stops it. Grate by a window. Stir vinegar in right away for a milder cream, or wait a minute if you want it hotter, then add the vinegar so it does not keep climbing. Left alone, the heat peaks and then fades.",
     ],
     storage: {
-      temp: "Ginger and turmeric: refrigerator. Horseradish: 32°F, or the ground.",
+      temp: "Ginger and turmeric: refrigerator. Horseradish: 32°F, or the ground. Keep stored roots from freezing.",
       humidity: "Ginger and turmeric in a paper bag so they do not wet-rot. Horseradish very damp, like a carrot.",
       keeps: "Ginger and turmeric 2–3 weeks in the fridge, months frozen. Horseradish 1–2 months once dug; indefinitely in the ground.",
       apart: "Do not wash before storage. Do not put horseradish in the dry onion basket. Do not put ginger in the freezing garage.",
@@ -973,8 +976,8 @@ export const chapters: Chapter[] = [
     lede: "Some roots are saved as seed. Others are saved as the root itself. They are not the same job.",
     paragraphs: [
       "Carrots, beets, parsnips, turnips, and rutabagas are biennials. They make seed in their second year. Keep the best roots over winter (in the ground under mulch, or in damp sand in a cellar), replant them in spring, and they will flower and set seed.",
-      "Carrots cross with wild Queen Anne’s lace. If it grows nearby, your seed may turn into white, woody roots. Keep a half mile to a mile away, or cover flowers with mesh and hand-pollinate. Save from 20 or more plants.",
-      "Beets cross with Swiss chard and sugar beets. The pollen travels on the wind for a mile or more. Grow only one beet or chard for seed each year. Save from at least 6 plants, more if you can.",
+      "Carrots cross with wild Queen Anne’s lace. If it grows nearby, the next generation may vary in root color, shape, or quality. Keep a half mile to a mile away, or cover flowers with mesh and hand-pollinate. Save from 20 or more plants.",
+      "Beets cross with Swiss chard and sugar beets. They are wind-pollinated. For seed that stays true, keep them about a mile from any other flowering beet or chard. Grow only one beet or chard for seed each year. A few plants can set seed, but that is a weak population for keeping a variety. Save from 20 to 50 plants.",
       "Radishes flower the first year. Bees cross them with other radishes. Grow one variety for seed. Let the pods dry on the plant, then crack them open.",
       "Potatoes, sweet potatoes, garlic, and sunchokes are saved as tubers, slips, or cloves, not as seed. Keep your best, healthiest ones to replant. Potato seed balls (little green tomato-like fruits) are poisonous and do not grow the same potato.",
     ],
@@ -1018,7 +1021,7 @@ export const chapters: Chapter[] = [
           "Make the slow onions only if you want them as a garnish. The soups do not depend on them.",
           "One pot after another, same knife, same onion method: soften the onion, add the root, cover with water, salt, simmer, blend or not.",
           "The beet soup gets its vinegar at the end. The carrot soup gets lemon. The potato soup gets pepper. That is how they stay different.",
-          "Cool what you will not eat and refrigerate up to 3 days. Roots reheat well. Add a splash of water if they thickened in the cold.",
+          "Cool what you will not eat and refrigerate it within two hours. A large batch goes into shallow containers so it chills through. Keep it up to 3 days. Roots reheat well. Add a splash of water if they thickened in the cold.",
         ],
       },
       {
@@ -1048,7 +1051,7 @@ export const chapters: Chapter[] = [
     paragraphs: [
       "Biennial. Makes seed in its second year.",
       "Thinning. Removing extra seedlings so the rest have room.",
-      "Certified seed potato. A disease-free potato sold for planting.",
+      "Certified seed potato. Potatoes inspected and certified to meet seed standards, sold for planting. Certification is not a promise that every tuber is disease-free.",
       "Slip. A rooted sprout used to plant sweet potatoes.",
       "Curing. Drying or warming roots after harvest so skins toughen and they store longer.",
       "Clamp. An outdoor pile of roots covered with straw and soil.",
