@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Root Crops: Under Earth";
+const APP_NAME = "Volume 12: Root Crops (The Education Revolution)";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Root Crops: Under Earth — The Education Revolution Pocket Guide, Volume 12. How to grow, store, and cook root crops.",
+          "Volume 12 of The Education Revolution, by Blue and the Awesome Dudes. Root Crops: Under Earth. How to grow, store, and cook root crops.",
       },
       { name: "theme-color", content: "#f3ebdd" },
     ],
